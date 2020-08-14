@@ -10,4 +10,4 @@ for chart in $Charts; do
     mv ${chart:7}-* ${chart:7}
 done
 
-helm repo index --url "jacobbaek.github.io/helmcharts" .
+helm repo index --url "https://jacobbaek.github.io/helmcharts" .

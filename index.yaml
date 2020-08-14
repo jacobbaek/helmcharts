@@ -3,7 +3,7 @@ entries:
   ldap-php:
   - apiVersion: v1
     appVersion: 1.0.0
-    created: "2020-08-14T16:01:09.383491598+09:00"
+    created: "2020-08-14T16:12:04.170834249+09:00"
     dependencies:
     - condition: openldap.enabled
       name: openldap
@@ -21,6 +21,6 @@ entries:
     - name: jacobbaek
     name: ldap-php
     urls:
-    - jacobbaek.github.io/helmcharts/ldap-php/ldap-php-0.1.4.tgz
+    - https://jacobbaek.github.io/helmcharts/ldap-php/ldap-php-0.1.4.tgz
     version: 0.1.4
-generated: "2020-08-14T16:01:09.381520328+09:00"
+generated: "2020-08-14T16:12:04.168849294+09:00"
